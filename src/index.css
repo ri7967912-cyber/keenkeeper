@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #244D3F;
+  --secondary: #64748B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #F8FAFC;
+  color: #1E2B28;
+}
+
+.status-overdue {
+  background-color: #EF4444;
+  color: white;
+}
+.status-almost {
+  background-color: #F59E0B;
+  color: white;
+}
+.status-ontrack {
+  background-color: #22C55E;
+  color: white;
+}
